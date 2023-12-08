@@ -132,7 +132,14 @@ app.get('/kknasional', (req, res) => {
       });
     })
     
-
+    app.get('/kematian', (req, res) => {
+   
+      res.render('kematian', { 
+        title: 'Halaman struktur',
+        layout: 'partials/main-layouts',
+      });
+    })
+    
   
 
 app.get('/proposalbeasiswa', (req, res) => {
